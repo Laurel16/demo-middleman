@@ -9363,6 +9363,117 @@ button.close {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border: white 1px solid; }
 
+/* line 1, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  padding: 100px;
+  background-size: cover;
+  position: relative;
+  z-index: O; }
+  /* line 8, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_banner.scss */
+  .banner-shadow {
+    background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0% #006eb2);
+    position: absolute;
+    top: O;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+  /* line 17, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_banner.scss */
+  .banner-content {
+    position: relative;
+    z-index: 2; }
+  /* line 22, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_banner.scss */
+  .banner h1 {
+    font-weight: bold; }
+  /* line 25, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_banner.scss */
+  .banner p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px; }
+
+/* line 1, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  color: white;
+  position: relative;
+  margin: 20px auto; }
+
+/* line 9, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-bg {
+  background-size: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+/* line 18, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-shadow {
+  background-image: linear; }
+
+/* line 21, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 26, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase; }
+
+/* line 33, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+/* line 38, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-description h2 {
+  font-size: 24px; }
+
+/* line 41, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-description p {
+  font-size: 13px; }
+
+/* line 44, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+
+/* line 53, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_card.scss */
+.card-link:hover {
+  opacity: 0.1; }
+
+/* line 1, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature h2 {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #666666; }
+
+/* line 9, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature p {
+  font-size: 15px;
+  color: #B3B3B3;
+  font-weight: 300; }
+
+/* line 15, /Users/laureleter/code/Laurel16/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature img {
+  height: 23px;
+  margin-right: 5px; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
