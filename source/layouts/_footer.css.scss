@@ -1,25 +1,25 @@
-_footer.css.scss
 #footer {
   background: $gray-darker;
   padding: 30px O;
   color: $grey-lighter;
-}
 
-#footer p {
+
+p {
   margin-top: 17px
 }
 
-#footer ul {
+ul {
   margin-top: 10px;
 }
 
-#footer {
+a {
   color: $grey-lighter;
   font-size: 30px;
   letter-spacing: 20px;
   transition: color 0.5 s ease;
 }
 
-#footer a:hover{
+a:hover{
   color: $green;
+}
 }
